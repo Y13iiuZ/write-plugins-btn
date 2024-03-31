@@ -1,0 +1,23 @@
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #39f;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+.warning {
+    background-color: #f90;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+.success {
+    background-color: #0c6;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
