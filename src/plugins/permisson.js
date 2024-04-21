@@ -8,7 +8,7 @@ export default {
                 el.parentNode.removeChild(el);
             }else{
                 console.log('没有父节点')
-                el.style.display = 'none';  //简单点~
+                el.style.display = 'none';  //简单点
             }
         });
     }
