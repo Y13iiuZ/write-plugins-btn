@@ -16,6 +16,10 @@ export default {
                     return `btn ${this.type}`
                 }
             }
-        });
+        })
+        //增加打印插件
+        app.config.globalProperties.$print = (msg = '') => {
+            console.log('日志打印姓名为:',option.name,msg)
+        }
     }
 }

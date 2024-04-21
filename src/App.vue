@@ -14,8 +14,10 @@
   </div>
   <router-view></router-view>
   <ztxBtn>主要按钮</ztxBtn>
-  <ztxBtn type="warning">警告按钮</ztxBtn>
-  <ztxBtn type="success">成功按钮</ztxBtn>
+  <ztxBtn type="warning" v-ztx="0">警告按钮</ztxBtn>
+  <ztxBtn type="success" v-ztx="1">成功按钮</ztxBtn>
+  <compComponent />
+  <compComponent>我是props</compComponent>
   <Footer></Footer>
 </template>
 
@@ -32,18 +34,9 @@ export default {
     Echarts,
   },
   created() {
-
-    Promise.resolve().then(() => {
-      console.log('statrt Created');
-    })
-
-
+    this.$print();
   },
   mounted() {
-    console.log('statrtmounted');
-    Promise.resolve().then(() => {
-      console.log('Mounted');
-    })
   }
 }
 </script>
