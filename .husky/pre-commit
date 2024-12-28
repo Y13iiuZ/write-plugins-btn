@@ -1,1 +1,2 @@
-echo 'husky update'
+echo 'husky pre-commit start'
+npx lint-staged
