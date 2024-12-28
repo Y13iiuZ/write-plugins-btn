@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 style="color: red;">图书网店</h2>
+    <h1 style="color: red;">图书网店</h1>
     <div class="nav">
       <div><router-link to="/home">首页</router-link></div>
       <div><router-link to="/login">登录</router-link></div>
