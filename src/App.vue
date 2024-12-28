@@ -36,8 +36,6 @@ export default {
   created() {
     this.$print();
   },
-  mounted() {
-  }
 }
 </script>
 
