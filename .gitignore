@@ -9,4 +9,5 @@ Thumbs.db
 *.log
 yarn.lock
 package-lock.json
+pnpm-lock.yaml
 dist/
