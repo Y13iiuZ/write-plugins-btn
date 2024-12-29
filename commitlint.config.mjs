@@ -33,6 +33,20 @@ const Configuration = {
       ],
     ],
   },
+  prompt: {
+    questions: {
+      type: {
+        description: 'Commit 类型选择',
+        enum: {
+          'feat': {
+            description: '新增feature',
+            title: 'feat: 新增feature',
+            emoji: '✨'
+          }
+        }
+      }
+    }
+  }
 }
 
 export default Configuration;
