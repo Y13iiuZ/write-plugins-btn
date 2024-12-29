@@ -17,4 +17,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)), // 相对需要base，绝对忽略base
     }
   },
+  esbuild: {
+    drop: lifecycle === 'build' ? ['console', 'debugger'] : [],
+  },
 })
