@@ -52,7 +52,7 @@
   "bundleDependencies": [],
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint --config commitlint.config.mjs -E HUSKY_GIT_PARAMS"
     }
   },
   "license": "MIT",
