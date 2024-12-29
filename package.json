@@ -50,6 +50,11 @@
     "vite": "^6.0.6"
   },
   "bundleDependencies": [],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "license": "MIT",
   "lint-staged": {
     "*.js": "eslint --cache --fix"
